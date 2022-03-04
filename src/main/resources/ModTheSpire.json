@@ -1,0 +1,10 @@
+{
+  "modid": "CrabMod",
+  "name": "Crab Mod",
+  "author_list": ["Zach"],
+  "description": "A giant enemy crab",
+  "version": "0.0.1",
+  "sts_version": "12-22-2020",
+  "mts_version": "3.14.1",
+  "dependencies": ["basemod"]
+}
