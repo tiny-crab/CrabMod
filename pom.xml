@@ -6,7 +6,7 @@
     <version>v0.0.1</version>
     <packaging>jar</packaging>
 
-    <name>CrabMod</name>
+    <name>bruised.CrabMod</name>
     <description>A giant enemy crab</description>
 
     <dependencies>
@@ -41,7 +41,7 @@
     </dependencies>
 
     <build>
-        <finalName>CrabMod</finalName>
+        <finalName>bruised.CrabMod</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -61,7 +61,7 @@
                         <phase>package</phase>
                         <configuration>
                             <target>
-                                <copy file="target/CrabMod.jar" tofile="../lib/CrabMod.jar"/>
+                                <copy file="target/bruised.CrabMod.jar" tofile="../lib/bruised.CrabMod.jar"/>
                             </target>
                         </configuration>
                         <goals>
